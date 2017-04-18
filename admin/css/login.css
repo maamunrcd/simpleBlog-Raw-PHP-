@@ -1,0 +1,161 @@
+.admin_login{
+    background:#25384c;
+    border:1px solid #192939;
+    width:22%;
+    height:350px;
+    margin:auto;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+.admin_login h1{
+    font-size: 20px;
+    background: #0c597d;
+    padding: 20px 30px;
+    color: #fff;
+    width: 102%;
+    font-weight: 400;
+    line-height: 0;
+    position: relative;
+    margin-top: 30px;
+    margin-left: -10px;
+    border-bottom: 1px solid #192939;
+}
+.admin_login h1::before {
+    content: "";
+    width: 0;
+    top: 40px;
+    height: 0;
+    border-top: 10px solid #182634;
+    border-left: 10px solid transparent;
+    position: absolute;
+    left: -1px;
+}
+.admin_login h1::after {
+    content: "";
+    width: 0;
+    top: -10px;
+    height: 0;
+    border-top: 10px solid #182634;
+    border-left: 10px solid transparent;
+    position: absolute;
+    transform: rotate(450deg);
+    left: -1px;
+}
+.admin_login form{
+    width:100%;
+    padding:5px 25px;
+}
+.admin_login .input-group{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width:100%;
+}
+.admin_login form .input_field{
+    color:#040b13;
+    padding:10px 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #192939;
+    border-left:none;
+    background:none;
+    font-size:14px;
+    height: 40px;
+}
+.admin_login .checkbox{
+    display:inline;
+    margin-right:8px;
+    padding-right:5px;
+    border-right: 1px dotted #0e1822    ;
+}
+.remember_field{
+    display: inline;
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+}
+.admin_login .input-group span{
+    background:none;
+    border:1px solid #192939;
+    border-right:none;
+    color:#101d2b;
+}
+.input_field::-webkit-input-placeholder {
+    color: #040b13;
+}
+
+.input_field:-moz-placeholder { /* Firefox 18- */
+    color: #040b13;  
+}
+
+.input_field::-moz-placeholder {  /* Firefox 19+ */
+    color: #040b13;  
+}
+
+.input_field:-ms-input-placeholder {  
+    color: #040b13;  
+}
+#submit_btn .submit_field{
+    padding:9px;
+    font-size:16px;
+    border:none;
+    width:70%;
+    margin:auto;
+    display:table;
+    background:#0c597d;
+    color:#fff;
+    margin-top: 15px;
+}
+
+
+/////check stylesheet
+input[type=checkbox].css-checkbox {
+
+}
+input[type=checkbox].css-checkbox + label.css-label {
+    padding-left: 25px;
+    height:20px;
+    font-weight: 400;
+    display: grid;
+    line-height: 24px;
+    background-repeat: no-repeat;
+    background-position:0 2px;
+    font-size: 13px;
+    /* vertical-align: middle; */
+    cursor: pointer;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-position: 0 -17px;
+}
+label.css-label {
+    background-image:url(../../images/check.png);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input#checkboxG4{
+    margin-left:3px;
+    position: absolute;
+    z-index: -100;
+}
+.forget_pass{
+    color:#618398;
+}
+.forget_pass:hover{
+    color:#618398;
+    text-decoration: none;
+}
+#upload_item{
+    height:100px;
+}

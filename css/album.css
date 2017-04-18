@@ -1,0 +1,141 @@
+.block02 .content #album_slider{
+    margin-left:0px;
+}
+.block02 .content #album{
+    margin-left:0px;
+    margin-bottom:0;
+}
+.album_profile_tabs {
+  list-style: none;
+  padding: 0;
+  background: rgba(0,0,0,.75);
+  font-size: 18px;
+  list-style: none;
+  margin: 0 auto 50px;
+  max-width: 540px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  }
+
+.album_profile_tabs li {
+  display: inline;
+  float: none;
+  margin-right: 1px;
+  }
+
+.album_profile_tabs a {
+  width: auto;
+  line-height: 20px;
+  padding: 9px 20px;
+  height: auto;
+  background: transparent;
+  display: inline;
+  }
+
+.album_profile_tabs li:first-child {
+  margin-left: 0;
+  }
+
+.album_profile_tabs .album_profile_here a {
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-weight: bold;
+  }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  }
+/* Callback example */
+
+.callbacks_container {
+  margin-bottom: 50px;
+  position: relative;
+  float: left;
+  width: 100%;
+  }
+
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.callbacks li {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.callbacks img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  width: 100%;
+  border: 0;
+  }
+.callbacks_nav:active {
+  opacity: 1.0;
+  }
+
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  }
+
+#album a {
+  display: inline-block;
+}
+
+#album img {
+  float: left;
+}
+
+#album .album_profile_here a {
+  background: transparent;
+  box-shadow: 0 0 0 2px #666;
+}
+
+#album a {
+  padding: 0;
+}
+
+
+.album_profile {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.album_profile li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.album_profile li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.album_profile img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
